@@ -200,7 +200,7 @@ export default function Home() {
                   className="absolute -top-5 text-xs text-black text-center font-semibold px-2"
                   style={{ left: `calc(${leftPos}% - 10px)` }}
                 >
-                  <div className="w-2 h-2 bg-black rounded-full mx-auto mb-6" />
+                  <div className="absolute top-5 w-2 h-2 bg-black rounded-full mx-auto mb-6" />
                   {i === 0 || i === stations.length - 1 || progress >= leftPos
                     ? // based on language selected show hindi or english name
                       language === "en"
