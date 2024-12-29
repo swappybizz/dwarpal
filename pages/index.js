@@ -168,7 +168,7 @@ export default function Home() {
                 className={`${
                   gapWarning
                     ? "text-6xl font-black text-red-600"
-                    : "text-2xl text-orange-400"
+                    : "text-2xl text-orange-600"
                 }`}
               >
                 {/* show GAP or hindi version of GAP here based on whats selected */}
