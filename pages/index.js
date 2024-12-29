@@ -179,7 +179,7 @@ export default function Home() {
           )}
         </div>
         {/* Timeline at the bottom */}
-        <div className="absolute bottom-0 w-full p-4">
+        <div className="absolute bottom-12 w-full p-4">
           <div className="relative h-2 bg-gray-300 rounded">
             {/* Progress line */}
             <div
